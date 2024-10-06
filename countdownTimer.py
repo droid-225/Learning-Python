@@ -2,6 +2,7 @@ import time
 
 myTime = int(input("Enter the time in seconds: "))
 
+# using range(x) will iterate the loop x amount of times
 for x in range(myTime, 0, -1): # negative step also allows us to count backwards
     seconds = x % 60
     minutes = int(x / 60) % 60
