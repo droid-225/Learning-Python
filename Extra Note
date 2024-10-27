@@ -1,0 +1,13 @@
+scope resolution follows this order:
+(LEGB)
+Local -> Enclosed -> Global -> Built-in
+i.e. the function will look for a local variable first and then the other scopes when needing to access a variable
+
+In python, you can make a function inside another function
+
+# if __name__ == __main__ : (This script can be imported OR run on its own)
+#                            Functions and classes in this module can be reused
+#                            without the main block of code executing
+
+__name__ is called "dunder name" meaning double underscore, it is a special attribute of Python
+and __main__ is called "dunder main"
