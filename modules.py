@@ -14,3 +14,4 @@
 from math import pi
 
 print(pi)
+help("modules") # prints all available modules
