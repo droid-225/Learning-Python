@@ -27,7 +27,7 @@ while True:
     if(coordinates[0] >= (WIDTH - img_width) or coordinates[0] < 0):
         x_vel *= -1
 
-    if(coordinates[1] >= (WIDTH - img_height) or coordinates[1] < 0):
+    if(coordinates[1] >= (HEIGHT - img_height) or coordinates[1] < 0):
         y_vel *= -1
 
     canvas.move(skull, x_vel, y_vel)
