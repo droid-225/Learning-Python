@@ -11,3 +11,5 @@ In python, you can make a function inside another function
 
 __name__ is called "dunder name" meaning double underscore, it is a special attribute of Python
 and __main__ is called "dunder main"
+
+Check Python's package index (pypi.org) when trying to find specific packages.
