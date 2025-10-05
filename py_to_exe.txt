@@ -1,0 +1,15 @@
+Windows defender might prevent the exe file from running.
+Make sure that it is allowed from the settings, and that pyinstaller and pip both are accessible from the cmd.
+
+It is advised to use a new folder to store the file to be converted into an exe along with its dependent files.
+
+From command prompt, 
+1. cd to directory that contains your .py file and all other necessary files needed for the program.
+2. pyinstaller -F -w -i icon.ico clock.py
+    Here,
+    -F : all in 1 file
+    -w : removes terminal window
+    -i icon.ico: add custom icon to .exe, optional
+    clock.py : the file to turn into an exe
+
+If this works, the .exe is located in the dist folder inside the directory where the original file was.
